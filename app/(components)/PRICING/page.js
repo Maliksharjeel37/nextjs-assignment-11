@@ -8,18 +8,16 @@ export default function PRICING() {
         <div className="heading text-5xl  font-bold">
           <h1>Choose A Plan That’s Right For You</h1>
         </div>
-        <div className="flex text-justify mx-20">
-          <h1 className=" text-blue-900 ">Monthly</h1>
-          <Image
-            src={"/images/percing-img.png"}
-            alt="team Image"
-            width={20}
-            height={10}
-          />
-          <h1>yearly</h1>
+        <div className="flex text-justify" style={{marginLeft:"390px"}}>
+          <h1 className=" text-blue-900 mx-2">Monthly</h1>
+        <label for="check"className=" bg-blue-700 w-20 h-10  cursor-pointer relative rounded-full">
+          <input type="checkbox"  id="check" className=" sr-only peer"></input>
+          <span className=" w-2/5 h-4/5 bg-white absolute rounded-full left-1 top-1 peer-checked:bg-black peer-checked:left-11 translate-all duration-500"></span>
+        </label>
+          <h1 className=" mx-2">yearly</h1>
         </div>
       </div>
-      <div className="cards-section flex">
+      <div className="cards-section flex mb-32">
       <Pricing heading={"Basic Plan"}pricing={"$50"} imgs="/images/50$ img.png"/>
       <Pricing heading={"Standart Plan"} pricing={"$99"}  imgs="/images/99$ img.jpg"/>
       <Pricing heading={"Premium Plan"} pricing={"$150"} imgs="/images/150$ img.png"/>

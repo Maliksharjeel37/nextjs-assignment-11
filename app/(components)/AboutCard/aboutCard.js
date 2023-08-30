@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default function aboutCard(props) {
   return (
-    <div className=" mt-14 mx-12 border-white border-4 mb-36">
+    <div className=" mt-14 mx-12 border-black border-4 mb-36 bg-white hover:bg-green-300 hover:scale-110">
             <div className="card-img-l">
             <Image
             src= {props.imgsrc}
