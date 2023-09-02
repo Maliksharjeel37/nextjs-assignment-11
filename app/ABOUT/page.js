@@ -1,6 +1,6 @@
-import Button from "../button";
+import Button from "./../(components)/button";
 import Image from "next/image";
-import AboutCard from "../AboutCard/aboutCard";
+import AboutCard from "./../(components)/AboutCard/aboutCard"
 export default function ABOUT() {
   return (
     <div>

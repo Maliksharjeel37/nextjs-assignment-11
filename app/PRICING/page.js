@@ -1,11 +1,11 @@
-import Image from "next/image";
-import Pricing from "../pricingCard/pricing";
-import ClientsCard from "../pricingCard/clientsCard";
+
+import Pricing from "./../(components)/pricingCard/clientsCard";
+import ClientsCard from "./../(components)/pricingCard/pricing";
 export default function PRICING() {
   return (
     <div >
       <div className=" heading-section flex mt-16  mb-32 mx-20">
-        <div className="heading text-5xl  font-bold">
+        <div className="heading text-5xl  font-bold mt-3">
           <h1>Choose A Plan That’s Right For You</h1>
         </div>
         <div className="flex text-justify" style={{marginLeft:"390px"}}>
@@ -23,8 +23,8 @@ export default function PRICING() {
       <Pricing heading={"Premium Plan"} pricing={"$150"} imgs="/images/150$ img.png"/>
       </div>
       <div className="clients-section bg-blue-600  ">
-      <h1 className="text-center text-4xl font-bold text-white mt-6">We’re trusted by clients.</h1>
-      <div className=" flex mx-10">
+      <h1 className="text-center text-4xl font-bold text-white my-6">We’re trusted by clients.</h1>
+      <div className=" flex justify-evenly py-4">
       <ClientsCard heading={"Mina Whatson"} text={"CONSULTANT"} imgs="/images/client-img-1.jpg"/>
 <ClientsCard heading={"Edward Hunter" }text={"IT SPCIALIST"} imgs="/images/client-img-2.jpg"/>
       </div>

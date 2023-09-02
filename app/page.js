@@ -1,9 +1,9 @@
-import Servicer from "./(components)/SERVICES/page";
-import About from "./(components)/ABOUT/page";
-import PORTFOLIO from "./(components)/PORTFOLIO/page";
- import TEAM from "./(components)/TEAM/page";
-import PRICING from "./(components)/PRICING/page";
-import BLOG from "./(components)/BLOG/page";
+import Servicer from ".//SERVICES/page";
+import About from "./ABOUT/page";
+import PORTFOLIO from "./PORTFOLIO/page";
+ import TEAM from "./TEAM/page";
+import PRICING from "./PRICING/page";
+import BLOG from "./BLOG/page";
 function Home() {
   return (
   <div>

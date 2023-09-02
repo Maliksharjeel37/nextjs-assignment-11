@@ -1,6 +1,6 @@
-import Card from "../Card-services/card";
-import GreaterthenButton from "../main-button/greaterthenButton";
-import LessthenButton from "../main-button/lessthenButton";
+import Card from "./../(components)/Card-services/card";
+import GreaterthenButton from "./../(components)/main-button/greaterthenButton";
+import LessthenButton from "./../(components)/main-button/lessthenButton";
 export default function SERVICES() {
   return (
     <>

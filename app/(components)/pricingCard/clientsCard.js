@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default function clientsCard(props) {
   return (
-    <div className=" bg-blue-600 border-5 mx-40 mb-16 mt-16 border-2 border-blue-400 hover:scale-125 hover:bg-blue-700">
+    <div className=" bg-blue-600 border-5 mx-40 my-5 mb-16 mt-16 border-2 border-blue-400 hover:scale-125 hover:bg-blue-700">
           <Image src={props.imgs} alt="services-img" width={70} height={20} style={{borderRadius:"50%", marginTop:"20px",marginLeft:"200px"}}  />
 <h1 className=" text-center mt-6 mb-2text-3xl font-bold text-white">{props.heading}</h1>
 <h2 className=" text-center text-white mb-6">{props.text}</h2>

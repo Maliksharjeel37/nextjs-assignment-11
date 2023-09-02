@@ -1,6 +1,6 @@
-import BlogCard from "../blogCard/blogCard";
-import LessthenButton from "../main-button/lessthenButton";
-import GreaterthenButton from "../main-button/greaterthenButton";
+import BlogCard from "./../(components)/blogCard/blogCard"
+import LessthenButton from "./../(components)/main-button/lessthenButton"
+import GreaterthenButton from "./../(components)/main-button/greaterthenButton";
 export default function BLOG() {
   return (
     <div>

@@ -2,7 +2,7 @@ import Button from "../button";
 import Image from "next/image";
 export default function pricing(props) {
   return (
-    <div className="pricingCard  mx-10 hover:bg-blue-600 rounded-2xl border-4 border-blue-500 hover:scale-110">
+    <div className="pricingCard  mx-10 my-4 hover:bg-blue-600 rounded-2xl border-4 border-blue-500 hover:scale-110">
         <h1 className=" text-3xl text-center mt-10 font-bold"> {props.heading} </h1>
         <div className="img mx-40 mt-10">
         <Image src={props.imgs} alt="services-img" width={100} height={50} style={{borderRadius:"50%", marginTop:"20px"}}  />

@@ -1,6 +1,6 @@
 import Portfolioimg from "./portfolioimg";
-import LessthenButton from "../main-button/lessthenButton";
-import GreaterthenButton from "../main-button/greaterthenButton";
+import LessthenButton from "./../(components)/main-button/lessthenButton";
+import GreaterthenButton from "./../(components)/main-button/greaterthenButton";
 export default function PORTFOLIO(props) {
   return (
     <div>
