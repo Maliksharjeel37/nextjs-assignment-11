@@ -19,7 +19,7 @@ export default function blogCard() {
         <button className="flex mx-6">
           <h1 className=" mt-11 text-xl font-bold text-blue-500 mb-12">
             Read More{"->"}
-          </h1>{" "}
+          </h1>
         </button>
       </div>
     </div>

@@ -1,11 +1,11 @@
 import Image from "next/image";
 export default function ClientCARD(props) {
   return (
-    <div className=" border-4 border-blue-600 mx-5 my-5 text-center text-white shadow-2xl hover:scale-95">
+    <div className=" border-4 border-blue-600 mx-3 my-3 text-center text-white shadow-2xl hover:scale-95">
      
       <Image
       className=" rounded-full my-10 "
-      style={{marginLeft:"380px"}}
+      style={{marginLeft:"350px"}}
       src={props.imgsrc}
       alt="client-img"
       width={80}
