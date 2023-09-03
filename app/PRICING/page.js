@@ -1,6 +1,5 @@
-
-import Pricing from "./../(components)/pricingCard/clientsCard";
-import ClientsCard from "./../(components)/pricingCard/pricing";
+import ClientCARD from "../(components)/client card/ClientCARD";
+import PricingCard from "../(components)/pricingcard/PricingCard";
 export default function PRICING() {
   return (
     <div >
@@ -17,16 +16,17 @@ export default function PRICING() {
           <h1 className=" mx-2">yearly</h1>
         </div>
       </div>
-      <div className="cards-section flex mb-32">
-      <Pricing heading={"Basic Plan"}pricing={"$50"} imgs="/images/50$ img.png"/>
-      <Pricing heading={"Standart Plan"} pricing={"$99"}  imgs="/images/99$ img.jpg"/>
-      <Pricing heading={"Premium Plan"} pricing={"$150"} imgs="/images/150$ img.png"/>
+      <div className="cards flex"  >
+<PricingCard heading="Basic Plan" imgsrc="/images/50$ img.png" h1="$50"/>
+<PricingCard heading="Standart Plan" imgsrc="/images/99$ img.jpg"h1="$99"/>
+<PricingCard heading="Premium Plan" imgsrc="/images/150$ img.png" h1="$150"/>
+
       </div>
       <div className="clients-section bg-blue-600  ">
-      <h1 className="text-center text-4xl font-bold text-white my-6">We’re trusted by clients.</h1>
+      <h1 className="text-center text-4xl font-bold text-white my-6 py-5">We’re trusted by clients.</h1>
       <div className=" flex justify-evenly py-4">
-      <ClientsCard heading={"Mina Whatson"} text={"CONSULTANT"} imgs="/images/client-img-1.jpg"/>
-<ClientsCard heading={"Edward Hunter" }text={"IT SPCIALIST"} imgs="/images/client-img-2.jpg"/>
+      <ClientCARD imgsrc="/images/client-img-1.jpg"h1="Mina Whatson" h2="CONSULTANT"/>
+      <ClientCARD imgsrc="/images/client-img-2.jpg"h1="Edward Hunter" h2="IT SPCIALIST"/>
       </div>
       </div>
     </div>

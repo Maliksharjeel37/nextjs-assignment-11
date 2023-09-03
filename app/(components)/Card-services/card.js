@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default function card(props) {
   return (
-    <div  className="card bg-white mx-28 border-4 border-blue-500 mt-24 mb-32 hover:bg-emerald-300 hover:scale-125">
+    <div  className="card bg-white mx-28 border-4 border-white mt-24 mb-32 hover:bg-emerald-300 hover:scale-125 shadow-2xl">
 <div className=' mx-20 my-10 border-solid rounded-full'>
 <Image src={props.imgsrc}  width={100} height={80} style={{borderRadius:"50%",marginLeft:"15px",}} />
 </div>
