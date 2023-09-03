@@ -18,9 +18,8 @@ export default function SERVICES() {
         </div>
       </div>
       <div className="card-section flex">s
-<Card heading={"Web Development"} imgsrc={"/images/services-img-1.jpg"} style={{background:"red"}} />
+<Card heading={"Web Development"} imgsrc={"/images/services-img-1.jpg"} />
 <Card heading={"Graphic Design"} imgsrc="/images/services-img-2.jpg"/>
-
 <Card heading={"Digital Marketing"} imgsrc="/images/services-img-3.jpg"/>
 
       </div>
