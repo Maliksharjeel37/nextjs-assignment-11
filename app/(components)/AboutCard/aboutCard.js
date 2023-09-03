@@ -12,8 +12,8 @@ export default function aboutCard(props) {
             />
           </div>
           <div className="heading mx-5">
-            <h1 className=" mx-14 mt-5 mb-5 text-xl font-bold">{props.text}</h1>
-            <p className=" text-lg mb-8">Lorem ipsum dolor sit amet, consectetur
+            <h1 className=" text-center mt-5 mb-5 text-xl font-bold">{props.text}</h1>
+            <p className=" text-lg mb-8 text-center">Lorem ipsum dolor sit amet, consectetur
 adipiscing elit, sed do eiusmod tempor
 incididunt ut labore et dolore</p>
 

@@ -7,7 +7,7 @@ export default function SERVICES() {
       <div className="main-div">
       <div className="section-1 flex  mt-32 ">
         <div>
-          <h1 className=" text-black text-5xl" style={{marginLeft:'400px'}}>
+          <h1 className=" text-black text-5xl" style={{marginLeft:'40px'}}>
             We Are Providing Digital services
           </h1>
         </div>
